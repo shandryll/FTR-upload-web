@@ -10,7 +10,7 @@ env:
   VERCEL_PROJECT_ID: ${{ secrets.VERCEL_PROJECT_ID }}
 
 jobs:
-  Deploy:
+  Deploy Preview:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
