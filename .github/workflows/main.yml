@@ -6,11 +6,11 @@ on:
       - main
 
 env:
+  VERCEL_ORG_ID: ${{ secrets.VERCEL_ORG_ID }}
+  VERCEL_PROJECT_ID: ${{ secrets.VERCEL_PROJECT_ID }}
 #   AWS_S3_BUCKET_STATIC: 'ftr-upload-widget-web-static'
 #   AWS_S3_BUCKET_CDN: 'shandryll-upload-widget-web-cdn'
 #   SOURCE_DIST: './dist'
-VERCEL_ORG_ID: ${{ secrets.VERCEL_ORG_ID }}
-VERCEL_PROJECT_ID: ${{ secrets.VERCEL_PROJECT_ID }}
 
 jobs:
   Deploy:
